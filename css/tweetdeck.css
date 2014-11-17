@@ -353,4 +353,8 @@ input:focus, select:focus, textarea:focus, .focus {
 body {
     background-color: #2d2d2d;
 }
+
+input, textarea, select {
+    color: #222;
+}
 }
