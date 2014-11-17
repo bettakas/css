@@ -1,12 +1,12 @@
 @-moz-document domain(tweetdeck.twitter.com){
 
 .app-content {
-background-color: #222 !important;
+background-color: #2d2d2d !important;
 }
 
 .column-header, .column-header-temp {
 color: #c4c4c4;
-background-color: #222;
+background-color: #2d2d2d;
 border-bottom: 1px solid #c4c4c4;
 }
   
@@ -15,7 +15,7 @@ background-color: #dd4b39;
 }
     
 .app-header {
-background-color: #222;
+background-color: #2d2d2d;
 }
       
 .app-nav-link {
@@ -28,7 +28,7 @@ background-color: #dd4b39;
 }
             
 .compose {
-background-color: #222;
+background-color: #2d2d2d;
 }
               
 .attach-compose-buttons .tweet-button {
@@ -71,7 +71,7 @@ background-color: #444;
 }
                       
 .column {
-background-color: #222;
+background-color: #2d2d2d;
 color: #c4c4c4;
 }
 
@@ -93,7 +93,7 @@ border-bottom: 1px solid #dd4b39;
       
 .column-header, .column-header-temp {
 color: #FFF;
-background-color: #222;
+background-color: #2d2d2d;
 /* border-bottom: 1px solid #c4c4c4; */
 }
         
@@ -103,15 +103,15 @@ color: #FFF;
             
 .column-nav-item {
 color: #c4c4c4;
-background-color: #222;
+background-color: #2d2d2d;
 }
               
 .app-title {
-background-color: #222;
+background-color: #2d2d2d;
 }
                 
 .app-navigator {
-background-color: #222;
+background-color: #2d2d2d;
 }
                   
 .popover {
@@ -224,7 +224,7 @@ background: #222;
 }
                                           
 .scroll-conversation {
-background: #222;
+background: #2d2d2d;
 }
                                             
 .detail-view-inline {
@@ -255,7 +255,7 @@ background-color: #dd4b39;
 }
 
 .app-columns-container {
-    background-color: #222 !important;
+    background-color: #2d2d2d !important;
 }
   
 .btn-compose {
@@ -298,5 +298,59 @@ background-color: #dd4b39;
 input:focus, select:focus, textarea:focus, .focus {
     border-color: #dd4b39;
     box-shadow: 0px 1px 3px #dd4b39 inset, 0px 0px 8px #dd4b39;
+}
+    
+.btn-on-blue:active, .btn-on-blue.is-selected {
+    background-color: #dd4b39;
+}
+    
+.btn-on-blue:focus {
+    background-color: #dd4b39;
+    box-shadow: 0px 0px 2px 3px #dd4b39;
+}
+.btn-positive, .btn-positive-alt, .btn-fav.s-favorited, .s-following .follow-btn {
+    background-color: #dd4b39;
+    box-shadow: 1px 1px 0px #dd4b39;
+}
+    
+.btn-positive:active, .btn-positive-alt:active, .btn-fav.s-favorited:active, .s-following .follow-btn:active, .btn-positive.is-selected, .is-selected.btn-positive-alt, .is-selected.btn-fav.s-favorited, .s-following .is-selected.follow-btn {
+    background-color: #dd4b39;
+}
+    
+.btn-positive:focus, .btn-positive-alt:focus, .btn-fav.s-favorited:focus, .s-following .follow-btn:focus {
+    background-color: #dd4b39;
+}
+    
+.btn:focus {
+    background-color: #dd4b39;
+    box-shadow: 0px 0px 2px 3px #dd4b39;
+}
+    
+.bg-r-light-gray {
+    background-color: #2d2d2d;
+} 
+    
+.txt-r-dark-gray {
+    color: #fff;
+}
+    
+.account-stats a:hover {
+    color: #dd4b39;
+}
+    
+.txt-r-text-link {
+    color: #fff;
+}
+    
+.is-inverted-light .account-link {
+    color: #dd4b39;
+}
+    
+.is-inverted-light a, .is-inverted-light a:hover, .is-inverted-light a:focus, .is-inverted-light a:active {
+    color: #fff;
+}
+    
+body {
+    background-color: #2d2d2d;
 }
 }
