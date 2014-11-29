@@ -1,0 +1,14 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("teraload.net") {
+header span {
+    color: #F5F5F5;
+}
+html {
+    background-color: #2D2D2D !important;
+    background-image: none !important;
+}
+.note {
+    color: #F5F5F5;
+}
+}
