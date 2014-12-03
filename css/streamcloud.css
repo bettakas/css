@@ -70,4 +70,13 @@ background: #2d2d2d !important;
     background: none !important;
     background-color: #DD4B39 !important;
 }
+  
+#mediaplayer {
+  height: 720px !important;
+  width: 100% !important;
+}
+  
+div#page {
+    width: 100% !important;
+}
 }
