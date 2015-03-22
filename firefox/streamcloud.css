@@ -1,82 +1,65 @@
 @-moz-document domain("streamcloud.eu") {
-#header, #banner {
-display:none !important;
-}
-
-div#page .header {
-background: none;
-}
-
-div#page .header ul {
-display: none;
-}
-
-div#page .content .padding {
-padding: 0px 45px;
-margin-top: 10px !important;
-}
-
-div.header.page {
-height: auto !important;
-}
-
-div#page .header h1 {
-margin: 10px auto 2px auto;
-padding: 10px 0px 10px 0px;
-border-bottom: 1px solid #DD4B39;
-width: 890px !important;
-color: #f5f5f5 !important;
-}
-
-.addthis_toolbox {
-display: none;
-}
-
-div#page .bottom {
-display: none;
-}
-  
-#vmenubar{
-  display: none !important;
-}
-
-#footer {
-display: none;
-}
-
-#page {
-background:none;
-}
-
-#turnon, #turnoff {
-display: none !important;
-}
-
-.content {
-background:none !Important;
-}
-
-body {
-background: #2d2d2d !important;
-}
-  
-#javawarning {
-  display: none !important;
-}
-  
-.blue {
-    color: #D9EEF7;
-    border: 1px solid transparent;
-    background: none !important;
-    background-color: #DD4B39 !important;
-}
-  
-#mediaplayer {
-  height: 720px !important;
-  width: 100% !important;
-}
-  
-div#page {
-    width: 100% !important;
-}
+	#header, #banner {
+		display: none !important;
+	}
+	div#page .header {
+		background: none;
+	}
+	div#page .header ul {
+		display: none;
+	}
+	div#page .content .padding {
+		padding: 0px 45px;
+		margin-top: 10px !important;
+	}
+	div.header.page {
+		height: auto !important;
+	}
+	div#page .header h1 {
+		margin: 10px auto 2px auto;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #DD4B39;
+		width: 890px !important;
+		color: #f5f5f5 !important;
+	}
+	.addthis_toolbox {
+		display: none;
+	}
+	div#page .bottom {
+		display: none;
+	}
+	#vmenubar {
+		display: none !important;
+	}
+	#footer {
+		display: none;
+	}
+	#page {
+		background: none;
+	}
+	#turnon, #turnoff {
+		display: none !important;
+	}
+	.content {
+		background: none !Important;
+	}
+	body {
+		background: #2d2d2d !important;
+	}
+	#javawarning {
+		display: none !important;
+	}
+	.blue {
+		color: #D9EEF7;
+		border: 1px solid transparent;
+		background: none !important;
+		background-color: #DD4B39 !important;
+	}
+	#mediaplayer {
+		height: 720px !important;
+		width: 100% !important;
+	}
+	div#page {
+		width: 100% !important;
+	}
 }

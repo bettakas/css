@@ -5,30 +5,25 @@
 ABOUT : BLANK
 
 */
+@-moz-document url("about:") {
 
-@-moz-document url("about:") 
-{
     /*
     black logo version arranged from images on
     https://wiki.mozilla.org/Firefox3.5/Logos
     */
-    html , 
-    body 
-    {
+    html, body {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    a /* links */
-    {
+    a{
         color: #f5f5f5 !important;
     }
+
     /* 300 x 236 */
-    #vendorURL img[src="about:logo"]
-    {
+    #vendorURL img[src="about:logo"] {
         display: none !important;
     }
-    #vendorURL
-    {
+    #vendorURL {
         height: 216px !important;
         background: url( http://dl.dropbox.com/u/3550293/stylish/about.black/about-black-logo.png ) no-repeat center center !important;
         display: block !important;
@@ -36,12 +31,10 @@ ABOUT : BLANK
         padding-top: 20px !important;
         margin-top: 0px !important;
     }
-    #aboutLogoContainer
-    {
+    #aboutLogoContainer {
         border: 1px solid gray !important;
     }
-    #version
-    {
+    #version {
         padding-top: 218px !important;
     }
 }
@@ -51,17 +44,12 @@ ABOUT : BLANK
 ABOUT : BLANK
 
 */
-
-@-moz-document url("about:blank") 
-{
-    html , 
-    body 
-    {
+@-moz-document url("about:blank") {
+    html, body {
         background-color: #2d2d2d !important;
         color: #FFFFFF !important;
     }
 }
-
 
 /*
 
@@ -71,100 +59,70 @@ still not working
 god damn
 
 */
-
-@-moz-document url-prefix("about:config")
-{
-    window , 
-    page , 
-    dialog , 
-    wizard , 
-    prefwindow , 
-    :root , 
-    #config  
-    {
+@-moz-document url-prefix("about:config") {
+    window, page, dialog, wizard, prefwindow, :root, #config {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
 }
-
 
 /*
 
 CREDITS
 
 */
-
-@-moz-document url-prefix("about:credits")
-{
-    html , 
-    body 
-    {
+@-moz-document url-prefix("about:credits") {
+    html, body {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    p a /* links in the footer area */
+    p a
+
+    /* links in the footer area */
     {
         color: #f5f5f5 !important;
     }
 }
-
 
 /*
 
 LICENCE
 
 */
-
-@-moz-document url-prefix("about:license")
-{
-    html , 
-    body 
-    {
+@-moz-document url-prefix("about:license") {
+    html, body {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    a
-    {
+    a {
         color: #f5f5f5 !important;
     }
 }
-
 
 /*
 
 NET ERROR
 
 */
-
-@-moz-document url-prefix("about:neterror")
-{
-    html , 
-    body , 
-    div  
-    {
+@-moz-document url-prefix("about:neterror") {
+    html, body, div {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
 }
-
 
 /*
 
 PRIVATE BROWSING
 
 */
-
 @-moz-document url("about:privatebrowsing") {
-    html , 
-    body ,
-    div
-    {
+    html, body, div {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    a
-    {
-       color: #f5f5f5 !important;
+    a {
+        color: #f5f5f5 !important;
     }
 }
 
@@ -173,44 +131,31 @@ PRIVATE BROWSING
 PLUG INS
 
 */
-
-@-moz-document url-prefix("about:plugins")
-{
-    html , 
-    body 
-    {
+@-moz-document url-prefix("about:plugins") {
+    html, body {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    a
-    {
+    a {
         color: f5f5f5 !important;
     }
-    th
-    {
+    th {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    td
-    {
+    td {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
 }
-
 
 /*
 
 SESSION RESTORE
 
 */
-
-@-moz-document url-prefix("about:sessionrestore") 
-{
-    html , 
-    body , 
-    div  
-    {
+@-moz-document url-prefix("about:sessionrestore") {
+    html, body, div {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
@@ -221,22 +166,15 @@ SESSION RESTORE
 NEW TAB
 
 */
-
-@-moz-document url-prefix("about:newtab") 
-{
-    html , 
-    body , 
-    div  
-    {
+@-moz-document url-prefix("about:newtab") {
+    html, body, div {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    .newtab-cell
-    {
+    .newtab-cell {
         border-color: #2d2d2d !important;
     }
-    .newtab-cell:hover
-    {
+    .newtab-cell:hover {
         border-color: #c4c4c4 !important;
     }
     .newtab-title {
@@ -257,17 +195,14 @@ NEW TAB
 ABOUT
 
 */
-
-@-moz-document url-prefix("about:about") 
-{
-    html , 
-    body , 
-    div  
-    {
+@-moz-document url-prefix("about:about") {
+    html, body, div {
         background-color: #2d2d2d !important;
         color: #f4f4f4 !important;
     }
-    a /* links */
+    a
+
+    /* links */
     {
         color: #f5f5f5 !important;
     }
