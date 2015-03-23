@@ -1,0 +1,52 @@
+@-moz-document domain(web.whatsapp.com) {
+	body {
+		background-color: #222;
+		background-image: none;
+		background-image: none;
+	}
+	#startup {
+		background-color: #222;
+	}
+	.pane-intro {
+		background-color: #2d2d2d;
+	}
+	.pane-intro:after {
+		border-top: 0px solid #58e870;
+	}
+	.intro-title {
+		color: #f5f5f5;
+	}
+	.intro-text {
+		color: #c4c4c4;
+	}
+	.intro-image {
+		width: 0px;
+		height: 0px;
+		background-image: none;
+	}
+	.pane-chat, .drawer-container-right, .pane-intro {
+		background-image: none;
+		background-color: #2d2d2d;
+	}
+	.message-in {
+		background-color: #3C5755;
+	}
+	.message-in:before {
+		background-image: none;
+	}
+	.message-text {
+		color: #f5f5f5;
+	}
+	.message-out {
+		background-color: #3C5755;
+	}
+	.message-out:before {
+		background-image: none;
+	}
+	.pane-chat-footer {
+		background-color: #444;
+	}
+	.menu-tabs-emoji {
+		background-color: #444;
+	}
+}
