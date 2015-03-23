@@ -466,14 +466,6 @@ img.spinner-centered {
 .med-embeditem {
     background: transparent url("https://i.imgur.com/ygoJOXT.gif") no-repeat 50% 50%;
 }
-.txt-center {
-    position: absolute !important;
-    margin-left: -35px !important;
-    margin-top: -35px !important;
-    background-image: url("https://i.imgur.com/ygoJOXT.gif") !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-}
 .spinner-small {
     height: 16px;
     width: 16px;
@@ -481,4 +473,9 @@ img.spinner-centered {
 }
 .list-placeholder {
     text-shadow: none;
+}
+.social-proof-for-tweet-title {
+        background-color: #444;
+        color: #c4c4c4;
+        border-bottom: none;
 }
