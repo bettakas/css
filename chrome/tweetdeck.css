@@ -479,3 +479,28 @@ img.spinner-centered {
         color: #c4c4c4;
         border-bottom: none;
 }
+.is-loaded {
+  	background: none;
+    }
+    .avatar.size73 {
+    	border-radius: 0px;
+    }
+    .txt-normal {
+        color: #c4c4c4;
+    }
+    .spinner-button-icon-spinner {
+    	background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/spinner-fff-on-55acee.d54f5738d9.gif");
+    }
+	.gap-chirp:before {
+  		background-image: none !important;
+	}
+	.gap-chirp:after {
+  		background-image: none !important;
+	}
+	.gap-chirp {
+  		background-color: #222;
+  		color: #f4f4f4;
+    }
+	.spinner-button-icon-spinner {
+    	background-image: none !important;
+	}
