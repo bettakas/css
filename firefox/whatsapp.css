@@ -49,4 +49,74 @@
 	.menu-tabs-emoji {
 		background-color: #444;
 	}
+	bg-chat-loaded .pane-chat {
+		background-image: none !important;
+	}
+	.pane-header {
+		background-color: #222;
+	}
+	.chat-title, .location-main, .header-title {
+		color: #dcdcdc;
+	}
+	.chat-status {
+		color: #dcdcdc;
+	}
+	.chat, .location {
+		background-color: #2d2d2d;
+		border-bottom: none !important;
+	}
+	.chatlist .chat.active, .chatlist .active.location {
+		background-color: #3C5755;
+		border-bottom: none !important;
+	}
+	.chat.active .chat-status, .active.location .chat-status, .chat.active .location-secondary, .active.location .location-secondary, .chat.active .header-secondary, .active.location 		.header-secondary {
+		color: #dcdcdc;
+	}
+	.chatlist .chat.active:hover, .chatlist .active.location:hover {
+		background-color: #4f6766;
+	}
+	.chatlist .chat:hover, .chatlist .location:hover {
+		background-color: #565656;
+	}
+	.pane-list-body {
+		background-color: #2d2d2d;
+	}
+	* {
+		text-shadow: none !important;
+	}
+	.chatlist .chat:after, .chatlist .location:after {
+		border-bottom: none !important;
+	}
+	.chat-meta {
+		color: rgba(255, 255, 255, 0.4) !important;
+	}
+	.subheader-search {
+		background-color: #2d2d2d;
+	}
+	.chatlist .is-unread .chat-title, .chatlist .is-unread .location-main, .chatlist .is-unread .header-title, .chatlist .unread .chat-title, .chatlist .unread .location-main, .chatlist .unread .header-title {
+		color: #dcdcdc;
+	}
+	.chatlist .is-unread .chat-status, .chatlist .is-unread .location-secondary, .chatlist .is-unread .header-secondary, .chatlist .unread .chat-status, .chatlist .unread .location-secondary, .chatlist .unread .header-secondary {
+		color: #dcdcdc;
+	}
+	.drawer-info {
+		background-color: #2d2d2d;
+	}
+	.drawer {
+		background-color: #2d2d2d;
+	}
+	.drawer-profile .drawer-header {
+		background-color: #222;
+		color: #dcdcdc;
+	}
+	.media-collection > span {
+		background-color: #222;
+	}
+	.drawer-media .drawer-body {
+		background-color: #2d2d2d;
+	}
+	.btn {
+		color: #dcdcdc;
+		background-color: #3C5755;
+	}
 }
