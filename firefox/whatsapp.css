@@ -49,7 +49,7 @@
 	.menu-tabs-emoji {
 		background-color: #444;
 	}
-	bg-chat-loaded .pane-chat {
+	.bg-chat-loaded .pane-chat {
 		background-image: none !important;
 	}
 	.pane-header {
