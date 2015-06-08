@@ -119,4 +119,26 @@
 		color: #dcdcdc;
 		background-color: #3C5755;
 	}
+	.media-viewer {
+        background-color: #2d2d2d;
+	}
+	.media-panel-header {
+        background-color: #2d2d2d;
+	}
+	.media-chat .chat-main, .media-chat .header-main {
+        color: #c4c4c4;
+	}
+	.sprite-loaded .icon, .sprite-loaded .icon-s, .sprite-loaded .icon-l, .sprite-loaded .icon-xl {
+        background-image: url("http://a.1339.cf/uuhmvb.svg");
+	}
+	.menu-icons-item {
+  		background-color: #222;
+    }
+	.location-secondary, .header-secondary {
+        color: #c4c4c4;
+	}
+	.list-title {
+  	    color: #009688;
+  	    background-color: #222;
+	}
 }
